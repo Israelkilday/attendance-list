@@ -1,0 +1,24 @@
+.card {
+    align-items: center;
+    border-radius: 10px;
+    background: #735bf2;
+    color: #fff;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 24px;
+    width: 50%;
+}
+
+.card strong {
+    font-size: 20px;
+}
+
+@media(max-width: 480px) {
+    .card {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
